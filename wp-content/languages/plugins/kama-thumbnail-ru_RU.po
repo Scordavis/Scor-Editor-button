@@ -1,0 +1,116 @@
+# Translation of Plugins - Kama Thumbnail - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Kama Thumbnail - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-04-06 22:42:32+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Kama Thumbnail - Stable (latest release)\n"
+
+#. Author of the plugin/theme
+msgid "Kama"
+msgstr "Kama"
+
+#. Description of the plugin/theme
+msgid "Creates post thumbnails on fly & cache the result. Which image take to create thumb the plugin find from: WP post thumbnail / first img in post content / first post attachment img. To creat thumb for any img in content add class \"mini\" to img & resize img in visual editor. In theme/plugin code use next functions: <code>kama_thumb_a_img(\"w=200 &h=100\")</code>, <code>kama_thumb_img(\"w=200 &h=100\")</code>, <code>kama_thumb_src(\"w=200 &h=100\")</code>.."
+msgstr "Создает миниатюры постов на лету и кэширует результат. Из какой картинки создавать миниатюру плагин получает из: миниатюр WP / первая картинка в контенте / первая картинка вложение. Для использования в тексте поста задайте картинке класс \"mini\": class=\"mini\" и укажите ширину и/или высоту картинке. В теме/плагине используйте функции: <code>kama_thumb_a_img(\"w=200 &h=100\")</code>, <code>kama_thumb_img(\"w=200 &h=100\")</code>, <code>kama_thumb_src(\"w=200 &h=100\")</code>."
+
+#. Plugin URI of the plugin/theme
+msgid "http://wp-kama.ru/?p=142"
+msgstr "http://wp-kama.ru/?p=142"
+
+#. Plugin Name of the plugin/theme
+msgid "Kama Thumbnail"
+msgstr "Kama Thumbnail"
+
+#: class.Kama_Thumbnail.php:356
+msgid "Couldn't delete <code>%s</code> custom fields"
+msgstr "Не удалось удалить произвольные поля <code>%s</code>"
+
+#: class.Kama_Thumbnail.php:354
+msgid "All custom fields <code>%s</code> was deleted."
+msgstr "Все произвольные поля <code>%s</code> были удалены."
+
+#: class.Kama_Thumbnail.php:345
+msgid "<b>Kama Thumbnail</b> cache has been cleared."
+msgstr "Кэш <b>Kama Thumbnail</b> был очищен."
+
+#: class.Kama_Thumbnail.php:343
+msgid "All nophoto thumbs was deleted from <b>Kama Thumbnail</b> cache."
+msgstr "Картинки-заглушки были удалены из кэша <b>Kama Thumbnail</b>."
+
+#: class.Kama_Thumbnail.php:332
+msgid "Path to cache not set."
+msgstr "Путь до папки кэша не установлен в настройках."
+
+#: class.Kama_Thumbnail.php:263
+msgid "Settings"
+msgstr "Настройки"
+
+#: class.Kama_Thumbnail.php:252
+msgid "Debug mode. Recreates thumbs all time..."
+msgstr "Дебаг режим. Будет создавать миниатюры все время..."
+
+#: class.Kama_Thumbnail.php:246
+msgid "Find specified here class of IMG tag in content and make thumb from found image by it sizes. Leave this field empty to disable this function. Default: %s"
+msgstr "Искать указанный класс у картинки в тексте поста и сделать из нее миниатюру по указанным у нее размерам. Оставьте поле пустым, чтобы отключить поиск. По умолчанию: %s"
+
+#: class.Kama_Thumbnail.php:240
+msgid "Clear all cache automaticaly every 7 days."
+msgstr "Автоматическая очистка всего кэша каждые 7 дней."
+
+#: class.Kama_Thumbnail.php:234
+msgid "Don't show nophoto image."
+msgstr "Не показывать картинку-заглушку."
+
+#: class.Kama_Thumbnail.php:229
+msgid "Quality of creating thumbs from 0 to 100. Default:"
+msgstr "Качество создаваемых миниатюр от 0 до 100. По умолчанию:"
+
+#: class.Kama_Thumbnail.php:225
+msgid "Hosts from which thumbs can be created. One per line: <i>sub.mysite.com</i>. Specify <code>any</code>, to use any hosts."
+msgstr "Хосты с которых разрешается создавать миниатюры. 1 на строке: <i>sub.mysite.com</i>. Укажите здесь <code>any</code>, чтобы можно было использовать любые хосты."
+
+#: class.Kama_Thumbnail.php:221
+msgid "Custom field key, where the thumb URL will be. Default:"
+msgstr "Название произвольного поля, куда будет записываться УРЛ миниатюры. По умолчанию:"
+
+#: class.Kama_Thumbnail.php:217
+msgid "URL of stub image."
+msgstr "URL картинки-заглушки."
+
+#: class.Kama_Thumbnail.php:213
+msgid "URL of cache folder."
+msgstr "URL папки кэша."
+
+#: class.Kama_Thumbnail.php:209
+msgid "Full path to the cache folder with 755 rights or above."
+msgstr "Полный путь до папки кэша с правами 755 или выше."
+
+#: class.Kama_Thumbnail.php:169
+msgid "Remove all data"
+msgstr "Удалить все данные"
+
+#: class.Kama_Thumbnail.php:168
+msgid "Remove Releted Custom Fields"
+msgstr "Удалить произвольные поля"
+
+#: class.Kama_Thumbnail.php:167
+msgid "Clear all images"
+msgstr "Очистить кеш всех картинок"
+
+#: class.Kama_Thumbnail.php:166
+msgid "Clear nophoto Cache"
+msgstr "Очистить кэш заглушек"
+
+#: class.Kama_Thumbnail.php:160
+msgid "Kama Thumbnail Settings"
+msgstr "Настройки Kama Thumbnail"
+
+#: class.Kama_Make_Thumb.php:303
+msgid "Folder where thumbs will be created not exists. Create it manually: \"s%\""
+msgstr "Директории для создания миниатюр не существует. Создайте её: \"s%\""
