@@ -2283,3 +2283,16 @@ div.alignright {
 .post-ratings {
 	font-size: 12px;
 }
+
+/*extra styles that makes from editor*/
+
+.scor-bold-text{
+	display: inline;
+	font-weight: bold;
+}
+
+.scor-marked-text{
+	display: inline;
+	background-color: #C1D6CEFF;
+	padding: 2px 6px;
+}
